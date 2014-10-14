@@ -1,0 +1,12 @@
+Source: ros-hydro-scitos-mira
+Section: misc
+Priority: extra
+Maintainer: cburbridge <cburbridge@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), mira-scitos, ros-hydro-catkin, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-scitos-msgs, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-scitos-mira
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, mira-scitos, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-nav-msgs, ros-hydro-roscpp, ros-hydro-scitos-msgs, ros-hydro-sensor-msgs, ros-hydro-std-msgs, ros-hydro-tf
+Description: Driver for Scitos-G5 using the MIRA framework.
