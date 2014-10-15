@@ -1,7 +1,7 @@
-From b002088ac1f308ba88425c315a97b638153c9ab7 Mon Sep 17 00:00:00 2001
+From 899403146eb630dee584c1ad85c06bd05bb7f1df Mon Sep 17 00:00:00 2001
 From: Marc Hanheide <marc@hanheide.net>
 Date: Wed, 15 Oct 2014 10:06:22 +0100
-Subject: [PATCH 2/2] set env variables for MIRA
+Subject: [PATCH 2/3] set env variables for MIRA
 
 ---
  debian/rules | 9 ++++-----

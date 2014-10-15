@@ -1,0 +1,29 @@
+From d2ae6cc94acb5c003800cba5e3917f2a85e71145 Mon Sep 17 00:00:00 2001
+From: Marc Hanheide <marc@hanheide.net>
+Date: Wed, 15 Oct 2014 10:26:33 +0100
+Subject: [PATCH 3/3] made vars non-recursive
+
+---
+ debian/rules | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/debian/rules b/debian/rules
+index 1e2e99b..081ec21 100755
+--- a/debian/rules
++++ b/debian/rules
+@@ -16,9 +16,9 @@ export DH_OPTIONS=-v --buildsystem=cmake
+ export LDFLAGS=
+ export PKG_CONFIG_PATH=/opt/ros/hydro/lib/pkgconfig
+ 
+-export MIRA_PATH=/opt/mira-scitos
+-export LD_LIBRARY_PATH=$(LD_LIBRARY_PATH):/opt/mira-scitos/lib
+-export PATH=$(PATH):/opt/mira-scitos/bin
++export MIRA_PATH:=/opt/mira-scitos
++export LD_LIBRARY_PATH:=$(LD_LIBRARY_PATH):/opt/mira-scitos/lib
++export PATH:=$(PATH):/opt/mira-scitos/bin
+ 
+ %:
+ 	dh  $@
+-- 
+2.0.4
+
