@@ -16,9 +16,9 @@ export DH_OPTIONS=-v --buildsystem=cmake
 export LDFLAGS=
 export PKG_CONFIG_PATH=/opt/ros/hydro/lib/pkgconfig
 
-export MIRA_PATH=/opt/mira-scitos
-export LD_LIBRARY_PATH=$(LD_LIBRARY_PATH):/opt/mira-scitos/lib
-export PATH=$(PATH):/opt/mira-scitos/bin
+export MIRA_PATH:=/opt/mira-scitos
+export LD_LIBRARY_PATH:=$(LD_LIBRARY_PATH):/opt/mira-scitos/lib
+export PATH:=$(PATH):/opt/mira-scitos/bin
 
 %:
 	dh  $@
