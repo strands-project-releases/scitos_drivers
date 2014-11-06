@@ -1,4 +1,4 @@
-From 3f24e8f0dc096d5926021e154ad5a2d9c686a82e Mon Sep 17 00:00:00 2001
+From b656fb5309fc97e826f4a1fc57012bf821e48866 Mon Sep 17 00:00:00 2001
 From: Marc Hanheide <marc@hanheide.net>
 Date: Wed, 15 Oct 2014 10:06:22 +0100
 Subject: [PATCH 2/3] set env variables for MIRA
