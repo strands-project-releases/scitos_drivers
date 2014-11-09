@@ -1,4 +1,4 @@
-From c213317a030bde03dcb13c75f7eed8ff16c6a869 Mon Sep 17 00:00:00 2001
+From 59332f0118a11d14214c87e6a9fd8474ab1d3ea0 Mon Sep 17 00:00:00 2001
 From: Marc Hanheide <marc@hanheide.net>
 Date: Wed, 15 Oct 2014 10:26:33 +0100
 Subject: [PATCH 3/3] made vars non-recursive
@@ -25,5 +25,5 @@ index 1e2e99b..081ec21 100755
  %:
  	dh  $@
 -- 
-2.1.3
+2.0.4
 

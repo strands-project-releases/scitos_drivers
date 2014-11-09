@@ -1,4 +1,4 @@
-From b656fb5309fc97e826f4a1fc57012bf821e48866 Mon Sep 17 00:00:00 2001
+From d9de681bc2a2e2a3caea8d9e1782fc1f783dfc88 Mon Sep 17 00:00:00 2001
 From: Marc Hanheide <marc@hanheide.net>
 Date: Wed, 15 Oct 2014 10:06:22 +0100
 Subject: [PATCH 2/3] set env variables for MIRA
@@ -61,5 +61,5 @@ index 2c2b995..1e2e99b 100755
 -	if [ -f "/opt/mira-scitos/.bashrc" ]; then . "/opt/mira-scitos/.bashrc"; fi && \
  	dh_auto_install
 -- 
-2.1.3
+2.0.4
 
