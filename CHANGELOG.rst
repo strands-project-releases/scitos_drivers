@@ -2,6 +2,9 @@
 Changelog for package flir_pantilt_d46
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.6 (2014-11-11)
+------------------
+
 0.0.5 (2014-11-09)
 ------------------
 * final and tested version of loader
