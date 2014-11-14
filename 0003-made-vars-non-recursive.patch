@@ -1,4 +1,4 @@
-From 66f3efa78b19cf386ac36ceab20ccc19a1a1abc3 Mon Sep 17 00:00:00 2001
+From 33fbea306b010fc692001bfb0ef2b9d80fbacdb1 Mon Sep 17 00:00:00 2001
 From: Marc Hanheide <marc@hanheide.net>
 Date: Wed, 15 Oct 2014 10:26:33 +0100
 Subject: [PATCH 3/3] made vars non-recursive
