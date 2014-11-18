@@ -1,0 +1,12 @@
+Source: ros-hydro-scitos-bringup
+Section: misc
+Priority: extra
+Maintainer: Jaime Pulido Fentanes <pulidofentanes@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-scitos-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-flir-pantilt-d46, ros-hydro-scitos-common, ros-hydro-scitos-description, ros-hydro-scitos-mira, ros-hydro-sicks300, ros-hydro-strands-apps
+Description: The scitos_bringup package
