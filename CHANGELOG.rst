@@ -2,6 +2,11 @@
 Changelog for package scitos_drivers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2014-11-18)
+------------------
+* adding scitos_bringup to run dependencies
+* Contributors: Jaime Pulido Fentanes
+
 0.0.8 (2014-11-14)
 ------------------
 * Deleting extra lines in CMakeLists.txt which create problems in metapackages
