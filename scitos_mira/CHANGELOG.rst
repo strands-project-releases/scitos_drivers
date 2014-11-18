@@ -2,6 +2,9 @@
 Changelog for package scitos_mira
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2014-11-18)
+------------------
+
 0.0.8 (2014-11-14)
 ------------------
 * Magnetic stripe detection added.
