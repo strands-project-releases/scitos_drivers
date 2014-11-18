@@ -1,3 +1,28 @@
+## scitos_drivers (hydro) - 0.0.9-0
+
+The packages in the `scitos_drivers` repository were released into the `hydro` distro by running `/usr/local/bin/bloom-release --non-interactive -t hydro -r hydro -y scitos_drivers` on `Tue, 18 Nov 2014 11:36:23 -0000`
+
+These packages were released:
+- `flir_pantilt_d46`
+- `scitos_bringup`
+- `scitos_drivers`
+- `scitos_mira`
+
+Version of package(s) in repository `scitos_drivers`:
+- upstream repository: https://github.com/strands-project/scitos_drivers.git
+- release repository: https://github.com/strands-project-releases/scitos_drivers.git
+- rosdistro version: `0.0.8-0`
+- old version: `0.0.8-0`
+- new version: `0.0.9-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.32`
+- rosdistro version: `0.3.6`
+- vcstools version: `0.1.35`
+
+
 ## scitos_drivers (hydro) - 0.0.8-0
 
 The packages in the `scitos_drivers` repository were released into the `hydro` distro by running `/usr/local/bin/bloom-release --non-interactive -t hydro -r hydro scitos_drivers` on `Fri, 14 Nov 2014 21:54:24 -0000`
