@@ -14,7 +14,7 @@ tracks:
     patches: null
     release_inc: '0'
     release_repo_url: null
-    release_tag: :{version}
+    release_tag: :{version}_hydro
     ros_distro: hydro
     vcs_type: git
     vcs_uri: https://github.com/strands-project/scitos_drivers.git
@@ -36,7 +36,7 @@ tracks:
     patches: null
     release_inc: '0'
     release_repo_url: null
-    release_tag: :{version}
+    release_tag: :{version}_indigo
     ros_distro: indigo
     vcs_type: git
     vcs_uri: https://github.com/strands-project/scitos_drivers.git
