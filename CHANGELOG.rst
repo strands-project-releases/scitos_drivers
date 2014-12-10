@@ -2,6 +2,11 @@
 Changelog for package scitos_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.16 (2014-12-10)
+-------------------
+* Fix s300 launch include.
+* Contributors: Chris Burbridge
+
 0.0.15 (2014-12-08)
 -------------------
 
