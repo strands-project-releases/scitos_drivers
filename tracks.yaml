@@ -9,7 +9,7 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       --distros precise -i :{release_inc}
     devel_branch: null
-    last_version: 
+    last_version: 0.0.12
     name: upstream
     patches: null
     release_inc: '0'
@@ -31,7 +31,7 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: indigo-release
-    last_version: 
+    last_version: 0.0.16
     name: upstream
     patches: null
     release_inc: '0'
