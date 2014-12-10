@@ -1,0 +1,12 @@
+Source: ros-indigo-scitos-drivers
+Section: misc
+Priority: extra
+Maintainer: Chris Burbridge <cburbridge@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://github.com/strands-project/scitos_drivers
+Standards-Version: 3.9.2
+
+Package: ros-indigo-scitos-drivers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-flir-pantilt-d46, ros-indigo-scitos-bringup, ros-indigo-scitos-mira, ros-indigo-sicks300
+Description: Driver for Scitos-G5 using the MIRA framework. Includes drivers for other typical Scitos Hardware, eg laser scanner.
