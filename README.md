@@ -1,3 +1,29 @@
+## scitos_drivers (indigo) - 0.1.1-0
+
+The packages in the `scitos_drivers` repository were released into the `indigo` distro by running `/usr/bin/bloom-release scitos_drivers -t indigo -r indigo` on `Wed, 17 Dec 2014 11:42:04 -0000`
+
+These packages were released:
+- `flir_pantilt_d46`
+- `scitos_bringup`
+- `scitos_drivers`
+- `scitos_mira`
+- `scitos_pc_monitor`
+
+Version of package(s) in repository `scitos_drivers`:
+- upstream repository: https://github.com/strands-project/scitos_drivers.git
+- release repository: https://github.com/strands-project-releases/scitos_drivers.git
+- rosdistro version: `0.0.16-0`
+- old version: `0.0.16-0`
+- new version: `0.1.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.14`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.3.6`
+- vcstools version: `0.1.35`
+
+
 ## scitos_drivers (hydro) - 0.0.14-0
 
 The packages in the `scitos_drivers` repository were released into the `hydro` distro by running `/usr/bin/bloom-release scitos_drivers -t hydro -r hydro` on `Wed, 10 Dec 2014 14:35:03 -0000`
