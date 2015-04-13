@@ -9,6 +9,9 @@ Changelog for package flir_pantilt_d46
 * Manual indigo version bump.
 * Contributors: Chris Burbridge
 
+0.1.4 (2015-04-13)
+------------------
+
 0.1.3 (2015-03-24)
 ------------------
 * Merge branch 'reset_service' of https://github.com/cburbridge/scitos_drivers into cburbridge-reset_service
