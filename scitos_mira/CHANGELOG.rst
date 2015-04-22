@@ -8,6 +8,11 @@ Changelog for package scitos_mira
 * Manual indigo version bump.
 * Contributors: Chris Burbridge
 
+0.1.5 (2015-04-22)
+------------------
+* Make magnetic barrier enable a normal parameter.
+* Contributors: Chris Burbridge
+
 0.1.4 (2015-04-13)
 ------------------
 * Fixed indentatioN
