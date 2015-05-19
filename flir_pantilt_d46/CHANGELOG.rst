@@ -9,6 +9,9 @@ Changelog for package flir_pantilt_d46
 * Manual indigo version bump.
 * Contributors: Chris Burbridge
 
+0.1.7 (2015-05-19)
+------------------
+
 0.1.6 (2015-05-13)
 ------------------
 * Adding respawn flags.
