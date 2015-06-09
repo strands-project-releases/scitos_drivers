@@ -1,0 +1,150 @@
+ros-indigo-flir-pantilt-d46 (0.1.8-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 09 Jun 2015 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.1.7-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 19 May 2015 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.1.6-0trusty) trusty; urgency=high
+
+  * Adding respawn flags.
+  * Contributors: Christian Dondrup
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Wed, 13 May 2015 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.1.5-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Wed, 22 Apr 2015 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.1.4-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Mon, 13 Apr 2015 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.1.3-0trusty) trusty; urgency=high
+
+  * Merge branch 'reset_service' of https://github.com/cburbridge/scitos_drivers into cburbridge-reset_service
+    Conflicts:
+    flir_pantilt_d46/src/ptu46_node.cc
+  * Add service to reset/calibrate PTU.
+  * Add velocity control option as new topic.
+  * Add service to reset/calibrate PTU.
+  * Add velocity control option as new topic.
+  * indigo-0.1.2
+  * Update changelogs.
+  * Fix publisher queue_size for indigo.
+  * indigo-0.1.1
+  * Manual indigo version bump.
+  * Contributors: Chris Burbridge
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 24 Mar 2015 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.1.2-0trusty) trusty; urgency=high
+
+  * Fix publisher queue_size for indigo.
+  * indigo-0.1.1
+  * Manual indigo version bump.
+  * Contributors: Chris Burbridge
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 13 Jan 2015 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.13-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 02 Dec 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.12-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Thu, 20 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.11-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 18 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.10-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 18 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 18 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.8-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Fri, 14 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 11 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.5-0trusty) trusty; urgency=high
+
+  * final and tested version of loader
+  * new machine tag format
+  * added new machine tags to ptu launch file
+  * Contributors: Jaime Pulido Fentanes
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Sun, 09 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.4-0trusty) trusty; urgency=high
+
+
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Thu, 06 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.3-0trusty) trusty; urgency=high
+
+  * attempt to fix #67 <https://github.com/strands-project/scitos_drivers/issues/67> by adding install target
+  * Contributors: Marc Hanheide
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Thu, 06 Nov 2014 00:00:00 -0000
+
+ros-indigo-flir-pantilt-d46 (0.0.2-0trusty) trusty; urgency=high
+
+  * Added preemption to ptu_action_server
+  * Adding machine tags to mira, sick and ptu launch files
+  * removed stupid log
+  * compelted bug fix after some git troubles
+  * pulled in
+  * fixed bug
+  * Revert "Merge pull request #54 <https://github.com/strands-project/scitos_drivers/issues/54> from marc-hanheide/hydro-devel"
+    This reverts commit 71e00ddcabb0ee9981d59033a2cb7b505db08ab9, reversing
+    changes made to 51742257dd76556f461efb567828a7d5108bec48. The changes result in
+    the /ptu/state topic being broken. Probably because of line 325 in
+    flir_pantilt_d46/src/ptu46_driver.cc.
+  * tested disabling of limits and added to launch file as default
+  * first shot on no limits
+  * PTU action server using parameterised joint names
+  * making PTU unit joint names parameterised
+  * updating ptu action server to use joint names
+  * make use of joint name to control joints independently. solves #40 <https://github.com/strands-project/scitos_drivers/issues/40>
+  * Fixing action server startup
+  * rename launch
+  * move launch file to own dir
+  * prepare to move into scitos_drivers (scitos_mira)
+  * Contributors: Bob, Chris Burbridge, Jaime Pulido Fentanes, Marc Hanheide, Rares Ambrus, strands
+
+ -- Chris Burbridge <cburbridge@gmail.com>  Tue, 14 Oct 2014 00:00:00 -0000
+
+
