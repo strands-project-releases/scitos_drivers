@@ -8,6 +8,14 @@ Changelog for package scitos_mira
 * Manual indigo version bump.
 * Contributors: Chris Burbridge
 
+0.1.8 (2015-06-09)
+------------------
+* Add service to get persistent charger error log.
+* fixing logic
+* fix typo
+* preventing the robot from moving when emergency_stop is active if new cmd_vel arrives
+* Contributors: Chris Burbridge, Jaime Pulido Fentanes
+
 0.1.7 (2015-05-19)
 ------------------
 * Don't reset odometry on start.
