@@ -9,6 +9,11 @@ Changelog for package flir_pantilt_d46
 * Manual indigo version bump.
 * Contributors: Chris Burbridge
 
+0.1.9 (2016-01-28)
+------------------
+* Expose the "port" parameter in the launchfile.
+* Contributors: lucasb-eyer
+
 0.1.8 (2015-06-09)
 ------------------
 
