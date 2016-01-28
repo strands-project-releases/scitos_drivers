@@ -8,6 +8,11 @@ Changelog for package scitos_mira
 * Manual indigo version bump.
 * Contributors: Chris Burbridge
 
+0.1.9 (2016-01-28)
+------------------
+* changed ros::Time::now() to actual mira timestamp for the messaged taken from MIRA and published into ROS
+* Contributors: g_gemignani
+
 0.1.8 (2015-06-09)
 ------------------
 * Add service to get persistent charger error log.
