@@ -11,6 +11,9 @@ Changelog for package scitos_bringup
 * Manual indigo version bump.
 * Contributors: Chris Burbridge
 
+0.1.9 (2016-01-28)
+------------------
+
 0.1.8 (2015-06-09)
 ------------------
 
