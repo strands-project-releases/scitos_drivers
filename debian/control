@@ -1,0 +1,12 @@
+Source: ros-kinetic-scitos-bringup
+Section: misc
+Priority: extra
+Maintainer: Jaime Pulido Fentanes <pulidofentanes@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-scitos-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-flir-pantilt-d46, ros-kinetic-scitos-common, ros-kinetic-scitos-description, ros-kinetic-scitos-mira, ros-kinetic-sicks300
+Description: The scitos_bringup package
