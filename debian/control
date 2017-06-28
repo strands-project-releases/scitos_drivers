@@ -1,0 +1,12 @@
+Source: ros-kinetic-scitos-mira
+Section: misc
+Priority: extra
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), libqt4-dev, mira-scitos, ros-kinetic-catkin, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-scitos-msgs, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-scitos-mira
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev, mira-scitos, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-scitos-msgs, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: Driver for Scitos-G5 using the MIRA framework.
