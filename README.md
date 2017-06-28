@@ -1,3 +1,31 @@
+## scitos_drivers (kinetic) - 0.2.0-0
+
+The packages in the `scitos_drivers` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -n -t kinetic -r kinetic scitos_drivers` on `Wed, 28 Jun 2017 18:15:22 -0000`
+
+These packages were released:
+- `flir_pantilt_d46`
+- `scitos_bringup`
+- `scitos_drivers`
+- `scitos_mira`
+- `scitos_pc_monitor`
+
+Version of package(s) in repository `scitos_drivers`:
+
+- upstream repository: https://github.com/strands-project/scitos_drivers.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## scitos_drivers (indigo) - 0.1.9-0
 
 The packages in the `scitos_drivers` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo scitos_drivers` on `Thu, 28 Jan 2016 11:33:24 -0000`
