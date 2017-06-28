@@ -1,0 +1,13 @@
+Source: ros-kinetic-scitos-drivers
+Section: misc
+Priority: extra
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://github.com/strands-project/scitos_drivers
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-scitos-drivers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-flir-pantilt-d46, ros-kinetic-scitos-bringup, ros-kinetic-scitos-mira, ros-kinetic-scitos-pc-monitor, ros-kinetic-sicks300
+Description: Driver for Scitos-G5 using the MIRA framework.
+ Includes drivers for other typical Scitos Hardware, eg laser scanner.
