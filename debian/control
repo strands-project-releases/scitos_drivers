@@ -1,0 +1,12 @@
+Source: ros-melodic-scitos-bringup
+Section: misc
+Priority: optional
+Maintainer: Jaime Pulido Fentanes <pulidofentanes@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-scitos-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-flir-pantilt-d46, ros-melodic-scitos-common, ros-melodic-scitos-description, ros-melodic-scitos-mira, ros-melodic-sicks300
+Description: The scitos_bringup package
