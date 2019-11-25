@@ -1,0 +1,12 @@
+Source: ros-melodic-scitos-mira
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), libqt4-dev, mira-scitos, ros-melodic-catkin, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-scitos-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-scitos-mira
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev, mira-scitos, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-scitos-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Description: Driver for Scitos-G5 using the MIRA framework.
