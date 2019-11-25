@@ -1,0 +1,25 @@
+From 954221b580992c875f196b9b88c3c4aaf5266bbb Mon Sep 17 00:00:00 2001
+From: Marc Hanheide <marc@hanheide.net>
+Date: Mon, 25 Nov 2019 10:30:24 +0000
+Subject: [PATCH] ignore-missing-info
+
+---
+ debian/rules.em | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index 1c02dd4..b40deca 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -51,7 +51,7 @@ override_dh_shlibdeps:
+ 	# in the install tree that was dropped by catkin, and source it.  It will
+ 	# set things like CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+ 	if [ -f "@(InstallationPrefix)/setup.sh" ]; then . "@(InstallationPrefix)/setup.sh"; fi && \
+-	dh_shlibdeps -l$(CURDIR)/debian/@(Package)/@(InstallationPrefix)/lib/
++	dh_shlibdeps -l$(CURDIR)/debian/@(Package)/@(InstallationPrefix)/lib/ -- -v --ignore-missing-info
+ 
+ override_dh_auto_install:
+ 	# In case we're installing to a non-standard location, look for a setup.sh
+-- 
+2.17.1
+
